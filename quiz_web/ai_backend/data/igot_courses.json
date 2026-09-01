@@ -1,0 +1,302 @@
+[
+  {
+    "course_id": "IGOT-STAT-001",
+    "title": "Foundations of Survey Design for Official Statistics",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Domain",
+    "competencies": ["Survey Design", "Sampling", "Data Quality Frameworks"],
+    "duration_hours": 6,
+    "level": "Beginner",
+    "description": "Introduces survey objectives, frames, questionnaires, sample planning, field protocols, and quality checks for official statistical surveys."
+  },
+  {
+    "course_id": "IGOT-STAT-002",
+    "title": "Sampling Methods and Estimation",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Domain",
+    "competencies": ["Sampling", "Survey Design"],
+    "duration_hours": 8,
+    "level": "Intermediate",
+    "description": "Covers probability sampling, stratification, cluster sampling, sampling errors, weights, and estimation workflows."
+  },
+  {
+    "course_id": "IGOT-STAT-003",
+    "title": "National Accounts Concepts and Compilation",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Domain",
+    "competencies": ["National Accounts", "Metadata Standards", "Data Quality Frameworks"],
+    "duration_hours": 10,
+    "level": "Intermediate",
+    "description": "Explains GDP, sector accounts, source data, compilation practices, revisions, and quality documentation for national accounts."
+  },
+  {
+    "course_id": "IGOT-STAT-004",
+    "title": "Consumer Price Index and Price Statistics",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Domain",
+    "competencies": ["Price Statistics", "Sampling", "Data Quality Frameworks"],
+    "duration_hours": 7,
+    "level": "Intermediate",
+    "description": "Builds capability in price collection, item baskets, index calculation, validation, and dissemination of price statistics."
+  },
+  {
+    "course_id": "IGOT-STAT-005",
+    "title": "Labour Force Statistics and Employment Indicators",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Domain",
+    "competencies": ["Labour Statistics", "Survey Design", "SDG Indicators"],
+    "duration_hours": 6,
+    "level": "Beginner",
+    "description": "Introduces labour-force concepts, employment indicators, questionnaire design, tabulation, and interpretation for policy use."
+  },
+  {
+    "course_id": "IGOT-STAT-006",
+    "title": "Agricultural Statistics for Planning and Monitoring",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Domain",
+    "competencies": ["Agricultural Statistics", "Sampling", "GIS"],
+    "duration_hours": 5,
+    "level": "Beginner",
+    "description": "Covers crop statistics, area and yield estimation, administrative data, remote-sensing linkages, and validation."
+  },
+  {
+    "course_id": "IGOT-STAT-007",
+    "title": "Industrial Statistics and Business Registers",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Domain",
+    "competencies": ["Industrial Statistics", "Metadata Standards", "SQL"],
+    "duration_hours": 7,
+    "level": "Intermediate",
+    "description": "Focuses on industrial classifications, business registers, frame maintenance, survey operations, and tabulation."
+  },
+  {
+    "course_id": "IGOT-STAT-008",
+    "title": "SDG Indicator Monitoring and Metadata",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Domain",
+    "competencies": ["SDG Indicators", "Metadata Standards", "Open Data"],
+    "duration_hours": 6,
+    "level": "Intermediate",
+    "description": "Teaches SDG indicator definitions, metadata templates, disaggregation, data sources, and publication readiness."
+  },
+  {
+    "course_id": "IGOT-STAT-009",
+    "title": "Data Quality Frameworks in Official Statistics",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Domain",
+    "competencies": ["Data Quality Frameworks", "Metadata Standards", "Ethics"],
+    "duration_hours": 8,
+    "level": "Intermediate",
+    "description": "Explains relevance, accuracy, timeliness, coherence, comparability, accessibility, and audit-ready quality reporting."
+  },
+  {
+    "course_id": "IGOT-TECH-001",
+    "title": "Python for Data Analysis in Government",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["Python", "Data Visualization", "Open Data"],
+    "duration_hours": 12,
+    "level": "Beginner",
+    "description": "Hands-on Python course covering data cleaning, pandas workflows, charts, notebooks, and reproducible analysis."
+  },
+  {
+    "course_id": "IGOT-TECH-002",
+    "title": "R for Statistical Reporting",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["R", "Data Visualization", "Metadata Standards"],
+    "duration_hours": 10,
+    "level": "Beginner",
+    "description": "Uses R for statistical summaries, tidy data, visualization, and publication-ready official statistics tables."
+  },
+  {
+    "course_id": "IGOT-TECH-003",
+    "title": "SQL for Administrative Data Systems",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["SQL", "Data Quality Frameworks", "Open Data"],
+    "duration_hours": 9,
+    "level": "Beginner",
+    "description": "Introduces database querying, joins, validation checks, aggregations, and safe extraction from administrative datasets."
+  },
+  {
+    "course_id": "IGOT-TECH-004",
+    "title": "GIS Mapping for Statistical Dissemination",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["GIS", "Data Visualization", "SDG Indicators"],
+    "duration_hours": 8,
+    "level": "Intermediate",
+    "description": "Applies GIS to district indicators, thematic maps, spatial joins, and visual communication of statistical outputs."
+  },
+  {
+    "course_id": "IGOT-TECH-005",
+    "title": "Dashboards and Data Visualization for Policy",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["Data Visualization", "Communication", "Open Data"],
+    "duration_hours": 8,
+    "level": "Intermediate",
+    "description": "Covers chart selection, dashboard design, accessibility, storytelling, and decision-focused visualization."
+  },
+  {
+    "course_id": "IGOT-TECH-006",
+    "title": "Introduction to AI and Machine Learning for Public Officials",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["AI/ML", "Python", "Ethics"],
+    "duration_hours": 6,
+    "level": "Beginner",
+    "description": "Introduces AI concepts, supervised learning, model evaluation, responsible use, and public-sector examples."
+  },
+  {
+    "course_id": "IGOT-TECH-007",
+    "title": "Cloud Computing Essentials for Government Applications",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["Cloud Computing", "Government Cloud", "Cybersecurity"],
+    "duration_hours": 5,
+    "level": "Beginner",
+    "description": "Explains cloud service models, hosting patterns, government cloud options, security, availability, and cost awareness."
+  },
+  {
+    "course_id": "IGOT-TECH-008",
+    "title": "API Fundamentals and Data Exchange",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["APIs", "Open Data", "Data Privacy"],
+    "duration_hours": 6,
+    "level": "Beginner",
+    "description": "Builds understanding of REST APIs, authentication, payloads, data exchange standards, and privacy-aware integration."
+  },
+  {
+    "course_id": "IGOT-TECH-009",
+    "title": "Stata for Survey Data Processing",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["Stata", "Sampling", "Data Quality Frameworks"],
+    "duration_hours": 8,
+    "level": "Intermediate",
+    "description": "Practical Stata workflows for survey cleaning, weighting, tabulation, reproducible scripts, and validation outputs."
+  },
+  {
+    "course_id": "IGOT-TECH-010",
+    "title": "SPSS and SAS for Statistical Production",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["SPSS", "SAS", "Data Quality Frameworks"],
+    "duration_hours": 9,
+    "level": "Intermediate",
+    "description": "Covers data import, transformations, descriptive statistics, quality checks, and repeatable production workflows."
+  },
+  {
+    "course_id": "IGOT-GOV-001",
+    "title": "Data Privacy and Personal Data Protection",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["Data Privacy", "Cybersecurity", "Ethics"],
+    "duration_hours": 5,
+    "level": "Beginner",
+    "description": "Explains privacy principles, lawful processing, minimization, consent awareness, access control, and responsible data sharing."
+  },
+  {
+    "course_id": "IGOT-GOV-002",
+    "title": "Cybersecurity Hygiene for Government Officials",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["Cybersecurity", "Digital Signatures", "Government Cloud"],
+    "duration_hours": 4,
+    "level": "Beginner",
+    "description": "Covers passwords, phishing, secure devices, digital certificates, incident reporting, and secure handling of official data."
+  },
+  {
+    "course_id": "IGOT-GOV-003",
+    "title": "Digital Signatures and e-Office Workflows",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["Digital Signatures", "Digital Public Infrastructure", "Cybersecurity"],
+    "duration_hours": 3,
+    "level": "Beginner",
+    "description": "Introduces digital signature certificates, secure approvals, e-office processes, and audit trails in government workflows."
+  },
+  {
+    "course_id": "IGOT-GOV-004",
+    "title": "Digital Public Infrastructure for Service Delivery",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["Digital Public Infrastructure", "APIs", "Data Privacy"],
+    "duration_hours": 5,
+    "level": "Intermediate",
+    "description": "Explains DPI architecture, registries, secure data exchange, identity layers, and citizen-service interoperability."
+  },
+  {
+    "course_id": "IGOT-MGMT-001",
+    "title": "Leadership for Data-Driven Governance",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Behavioral",
+    "competencies": ["Leadership", "Decision Making", "Communication"],
+    "duration_hours": 6,
+    "level": "Intermediate",
+    "description": "Develops leadership habits for evidence-based decisions, stakeholder alignment, team accountability, and public value."
+  },
+  {
+    "course_id": "IGOT-MGMT-002",
+    "title": "Project Management for Statistical Operations",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Behavioral",
+    "competencies": ["Project Management", "Communication", "Change Management"],
+    "duration_hours": 8,
+    "level": "Intermediate",
+    "description": "Covers work planning, milestones, risks, field coordination, quality gates, reporting, and stakeholder communication."
+  },
+  {
+    "course_id": "IGOT-MGMT-003",
+    "title": "Ethics in Official Statistics",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Behavioral",
+    "competencies": ["Ethics", "Data Privacy", "Data Quality Frameworks"],
+    "duration_hours": 4,
+    "level": "Beginner",
+    "description": "Explores impartiality, confidentiality, transparency, data integrity, misuse prevention, and trust in official statistics."
+  },
+  {
+    "course_id": "IGOT-MGMT-004",
+    "title": "Communication of Statistical Findings",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Behavioral",
+    "competencies": ["Communication", "Data Visualization", "Decision Making"],
+    "duration_hours": 5,
+    "level": "Intermediate",
+    "description": "Builds skills for briefing notes, presentations, indicator interpretation, uncertainty communication, and executive summaries."
+  },
+  {
+    "course_id": "IGOT-MGMT-005",
+    "title": "Change Management for Digital Transformation",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Behavioral",
+    "competencies": ["Change Management", "Leadership", "Cloud Computing"],
+    "duration_hours": 6,
+    "level": "Intermediate",
+    "description": "Helps officials plan adoption, manage resistance, communicate benefits, and sustain digital transformation projects."
+  },
+  {
+    "course_id": "IGOT-ADV-001",
+    "title": "Responsible AI for Official Statistics",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["AI/ML", "Data Privacy", "Ethics"],
+    "duration_hours": 10,
+    "level": "Advanced",
+    "description": "Covers model governance, bias, explainability, privacy, auditability, and responsible use of AI in statistical systems."
+  },
+  {
+    "course_id": "IGOT-ADV-002",
+    "title": "Advanced Open Data Publishing and APIs",
+    "provider": "iGOT Karmayogi",
+    "competency_type": "Functional",
+    "competencies": ["Open Data", "APIs", "Metadata Standards"],
+    "duration_hours": 8,
+    "level": "Advanced",
+    "description": "Focuses on machine-readable datasets, API-enabled dissemination, metadata quality, licensing, and reusable data products."
+  }
+]
