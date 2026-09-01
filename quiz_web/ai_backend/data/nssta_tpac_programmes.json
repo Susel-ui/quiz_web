@@ -1,0 +1,200 @@
+[
+  {
+    "programme_id": "NSSTA-TPAC-001",
+    "title": "Induction Training on Official Statistics for SSS Officers",
+    "target_cadre": ["SSS", "Field"],
+    "competency_type": "Domain",
+    "competencies": ["Survey Design", "Sampling", "Data Quality Frameworks", "Ethics"],
+    "duration_days": 10,
+    "mode": "Classroom",
+    "batch_size": 35,
+    "description": "Foundation programme covering the official statistical system, survey operations, sampling concepts, quality assurance, and professional conduct."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-002",
+    "title": "Refresher Programme on Survey Methodology",
+    "target_cadre": ["SSS", "ISS"],
+    "competency_type": "Domain",
+    "competencies": ["Survey Design", "Sampling", "Metadata Standards"],
+    "duration_days": 5,
+    "mode": "Classroom",
+    "batch_size": 30,
+    "description": "Refreshes sampling frames, questionnaire design, estimation, non-response handling, and metadata documentation for survey programmes."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-003",
+    "title": "National Accounts Compilation Workshop",
+    "target_cadre": ["ISS", "SSS"],
+    "competency_type": "Domain",
+    "competencies": ["National Accounts", "Industrial Statistics", "Data Quality Frameworks"],
+    "duration_days": 7,
+    "mode": "Classroom",
+    "batch_size": 25,
+    "description": "Hands-on compilation workshop for source data validation, sectoral estimates, revisions, and national accounts quality checks."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-004",
+    "title": "Price Statistics and CPI Field Validation",
+    "target_cadre": ["SSS", "Field"],
+    "competency_type": "Domain",
+    "competencies": ["Price Statistics", "Sampling", "Data Quality Frameworks"],
+    "duration_days": 4,
+    "mode": "Blended",
+    "batch_size": 30,
+    "description": "Practical programme on item specifications, price collection, outlier validation, index basics, and field supervision."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-005",
+    "title": "Labour and Employment Statistics Programme",
+    "target_cadre": ["ISS", "SSS", "Field"],
+    "competency_type": "Domain",
+    "competencies": ["Labour Statistics", "Survey Design", "SDG Indicators"],
+    "duration_days": 5,
+    "mode": "Classroom",
+    "batch_size": 30,
+    "description": "Covers labour-force concepts, employment status, indicator production, survey instruments, and interpretation."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-006",
+    "title": "Agricultural and Rural Statistics Training",
+    "target_cadre": ["SSS", "Field", "State"],
+    "competency_type": "Domain",
+    "competencies": ["Agricultural Statistics", "Sampling", "GIS"],
+    "duration_days": 5,
+    "mode": "Classroom",
+    "batch_size": 35,
+    "description": "Builds capability in crop area, yield estimation, rural indicators, administrative records, and geospatial validation."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-007",
+    "title": "SDG Indicators and Data Disaggregation",
+    "target_cadre": ["ISS", "SSS", "State"],
+    "competency_type": "Domain",
+    "competencies": ["SDG Indicators", "Metadata Standards", "Open Data"],
+    "duration_days": 4,
+    "mode": "Online",
+    "batch_size": 50,
+    "description": "Focuses on SDG metadata, sub-national disaggregation, reporting schedules, validation, and dissemination."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-008",
+    "title": "Python and R Laboratory for Official Statistics",
+    "target_cadre": ["ISS", "SSS", "Technical"],
+    "competency_type": "Functional",
+    "competencies": ["Python", "R", "Data Visualization"],
+    "duration_days": 6,
+    "mode": "Lab",
+    "batch_size": 25,
+    "description": "Hands-on lab for cleaning, analysis, reproducible scripts, visualization, and statistical reporting using Python and R."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-009",
+    "title": "SQL and Administrative Data Integration",
+    "target_cadre": ["ISS", "SSS", "Technical"],
+    "competency_type": "Functional",
+    "competencies": ["SQL", "APIs", "Data Quality Frameworks"],
+    "duration_days": 4,
+    "mode": "Lab",
+    "batch_size": 25,
+    "description": "Teaches database querying, validation, data linkage, administrative data quality checks, and repeatable integration pipelines."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-010",
+    "title": "GIS and Spatial Statistics Applications",
+    "target_cadre": ["ISS", "SSS", "State", "Technical"],
+    "competency_type": "Functional",
+    "competencies": ["GIS", "Data Visualization", "Agricultural Statistics"],
+    "duration_days": 5,
+    "mode": "Lab",
+    "batch_size": 25,
+    "description": "Applies geospatial tools to maps, spatial joins, administrative boundaries, indicator dashboards, and validation."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-011",
+    "title": "AI and Machine Learning for Official Statistics",
+    "target_cadre": ["ISS", "Technical"],
+    "competency_type": "Functional",
+    "competencies": ["AI/ML", "Python", "Data Quality Frameworks", "Ethics"],
+    "duration_days": 5,
+    "mode": "Blended",
+    "batch_size": 25,
+    "description": "Introduces ML workflows, feature preparation, model evaluation, responsible AI, and use cases in official statistics."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-012",
+    "title": "Cloud, APIs, and Open Data Infrastructure",
+    "target_cadre": ["Technical", "ISS", "SSS"],
+    "competency_type": "Functional",
+    "competencies": ["Cloud Computing", "Government Cloud", "APIs", "Open Data"],
+    "duration_days": 4,
+    "mode": "Online",
+    "batch_size": 40,
+    "description": "Covers government cloud hosting, API-driven exchange, data catalogs, open data publication, and platform operations."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-013",
+    "title": "Cybersecurity and Data Privacy for Statistical Systems",
+    "target_cadre": ["ISS", "SSS", "Technical", "Field"],
+    "competency_type": "Functional",
+    "competencies": ["Cybersecurity", "Data Privacy", "Digital Signatures"],
+    "duration_days": 3,
+    "mode": "Online",
+    "batch_size": 50,
+    "description": "Builds cyber hygiene, privacy safeguards, secure access, digital signatures, incident awareness, and confidential data handling."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-014",
+    "title": "Digital Public Infrastructure and Data Exchange",
+    "target_cadre": ["ISS", "Technical"],
+    "competency_type": "Functional",
+    "competencies": ["Digital Public Infrastructure", "APIs", "Data Privacy"],
+    "duration_days": 3,
+    "mode": "Blended",
+    "batch_size": 30,
+    "description": "Explains DPI components, registries, secure exchange patterns, interoperability, and governance for data platforms."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-015",
+    "title": "Leadership and Ethics in Statistical Administration",
+    "target_cadre": ["ISS", "SSS"],
+    "competency_type": "Behavioral",
+    "competencies": ["Leadership", "Ethics", "Decision Making", "Communication"],
+    "duration_days": 4,
+    "mode": "Classroom",
+    "batch_size": 30,
+    "description": "Develops leadership, ethical judgment, evidence-based decisions, and communication for public statistical leadership roles."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-016",
+    "title": "Project Management for Large-Scale Surveys",
+    "target_cadre": ["ISS", "SSS", "Field"],
+    "competency_type": "Behavioral",
+    "competencies": ["Project Management", "Survey Design", "Communication", "Change Management"],
+    "duration_days": 5,
+    "mode": "Classroom",
+    "batch_size": 30,
+    "description": "Practical training on survey workplans, team coordination, field monitoring, quality gates, risks, and reporting."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-017",
+    "title": "Decision Support Dashboards for Senior Officers",
+    "target_cadre": ["ISS", "State"],
+    "competency_type": "Behavioral",
+    "competencies": ["Decision Making", "Data Visualization", "Communication"],
+    "duration_days": 3,
+    "mode": "Blended",
+    "batch_size": 30,
+    "description": "Uses dashboards and briefing products to support strategic decisions, prioritization, and data-driven reviews."
+  },
+  {
+    "programme_id": "NSSTA-TPAC-018",
+    "title": "Change Management for Statistical Modernization",
+    "target_cadre": ["ISS", "SSS", "Technical"],
+    "competency_type": "Behavioral",
+    "competencies": ["Change Management", "Leadership", "Project Management"],
+    "duration_days": 4,
+    "mode": "Classroom",
+    "batch_size": 30,
+    "description": "Supports teams through modernization, process redesign, digital adoption, stakeholder communication, and sustained improvement."
+  }
+]

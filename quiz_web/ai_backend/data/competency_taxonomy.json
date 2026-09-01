@@ -1,0 +1,65 @@
+{
+  "domains": [
+    {
+      "domain": "Statistical",
+      "frac_pillar": "Domain",
+      "description": "Core official statistics methods and subject-matter knowledge used for surveys, statistical production, quality assurance, and dissemination.",
+      "competencies": [
+        "Survey Design",
+        "Sampling",
+        "National Accounts",
+        "Price Statistics",
+        "Labour Statistics",
+        "Agricultural Statistics",
+        "Industrial Statistics",
+        "SDG Indicators",
+        "Metadata Standards",
+        "Data Quality Frameworks"
+      ]
+    },
+    {
+      "domain": "Technical",
+      "frac_pillar": "Functional",
+      "description": "Digital and analytical capabilities needed to collect, process, analyze, visualize, automate, and publish official statistics.",
+      "competencies": [
+        "Python",
+        "R",
+        "SQL",
+        "Stata",
+        "SPSS",
+        "SAS",
+        "GIS",
+        "Data Visualization",
+        "AI/ML",
+        "Cloud Computing",
+        "APIs",
+        "Open Data"
+      ]
+    },
+    {
+      "domain": "Digital Governance",
+      "frac_pillar": "Functional",
+      "description": "Secure and compliant use of government digital infrastructure, identity, data protection, and public digital platforms.",
+      "competencies": [
+        "Cybersecurity",
+        "Data Privacy",
+        "Digital Signatures",
+        "Government Cloud",
+        "Digital Public Infrastructure"
+      ]
+    },
+    {
+      "domain": "Behavioural & Managerial",
+      "frac_pillar": "Behavioral",
+      "description": "Leadership, communication, ethics, decision-making, and change capabilities needed for public-sector statistical work.",
+      "competencies": [
+        "Leadership",
+        "Communication",
+        "Project Management",
+        "Ethics",
+        "Decision Making",
+        "Change Management"
+      ]
+    }
+  ]
+}

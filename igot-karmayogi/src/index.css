@@ -1,0 +1,126 @@
+/* =============================================================
+   iGOT Karmayogi — Global Stylesheet
+   Import order: fonts → resets → base → utilities
+   ============================================================= */
+
+/* 1. Google Fonts — Inter (UI text) + JetBrains Mono (code) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* 2. Tailwind layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 3. CSS custom properties — runtime theming bridge */
+@layer base {
+  :root {
+    --color-primary: 26 58 107;       /* primary-600 in RGB for opacity tricks */
+    --color-accent:  14 165 233;
+    --color-surface: 248 250 252;
+    --radius-card:   12px;
+    --transition-fast: 150ms;
+    --transition-normal: 300ms;
+    --transition-slow: 500ms;
+  }
+
+  .dark {
+    --color-surface: 15 23 42;
+  }
+
+  /* Sensible base resets */
+  *, *::before, *::after {
+    @apply border-surface-border;
+  }
+
+  html {
+    @apply scroll-smooth antialiased;
+  }
+
+  body {
+    @apply bg-surface-light text-slate-800 font-sans;
+    @apply dark:bg-surface-dark dark:text-slate-100;
+  }
+
+  /* Respect system reduced-motion at CSS level */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* Focus ring — keyboard nav */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-accent-500 rounded-sm;
+  }
+
+  /* Heading defaults */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+
+  /* Scrollbar styling — subtle, not distracting */
+  ::-webkit-scrollbar {
+    @apply w-1.5;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-300 rounded-full;
+    @apply dark:bg-slate-600;
+  }
+}
+
+/* 4. Component layer — reusable CSS classes that complement Tailwind */
+@layer components {
+  /* Glass morphism card — used in landing hero sections */
+  .glass-card {
+    @apply bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl;
+  }
+
+  /* Status dot indicator */
+  .status-dot {
+    @apply inline-block w-2 h-2 rounded-full;
+  }
+
+  /* Competency gap pill */
+  .gap-pill {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-caption font-medium;
+  }
+  .gap-pill--critical { @apply bg-red-100 text-gap-critical dark:bg-red-900/40 dark:text-red-400; }
+  .gap-pill--warning  { @apply bg-amber-100 text-gap-warning dark:bg-amber-900/40 dark:text-amber-400; }
+  .gap-pill--ok       { @apply bg-green-100 text-gap-ok dark:bg-green-900/40 dark:text-green-400; }
+
+  /* Page container */
+  .page-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Section padding */
+  .section-pad {
+    @apply py-16 lg:py-24;
+  }
+}
+
+/* 5. Utility layer — one-off helpers */
+@layer utilities {
+  /* Hide scrollbar but keep scroll functionality */
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar { display: none; }
+
+  /* Text gradient */
+  .text-gradient {
+    @apply bg-gradient-to-r from-accent-300 to-accent-500 bg-clip-text text-transparent;
+  }
+
+  /* Radial glow behind hero elements */
+  .radial-glow {
+    background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(14, 165, 233, 0.15), transparent);
+  }
+}
